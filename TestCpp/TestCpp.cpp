@@ -30,6 +30,8 @@ std::string get_answer(int value)
 		return "Bye, World!";
 	case 3:
 		exit(0);
+	default:
+		return "You need to add new case for menu in get_answer function!";
 	}
 }
 
